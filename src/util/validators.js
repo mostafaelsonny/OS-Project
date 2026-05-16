@@ -16,6 +16,8 @@
  * @param {Array}  existingProcesses — already-added processes
  * @returns {Object} errors          — keyed by field name; empty = valid
  */
+
+// for forms 
 export function validateProcessForm(form, existingProcesses = []) {
   const errors = {};
   const { id, arrival, burst, priority } = form;
